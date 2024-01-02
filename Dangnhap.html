@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styledn.css">
+    <link href="https://iconsax.gitlab.io/i/icons.css" rel="stylesheet">
+    <title>Sắc Lục Tân Cương - Đăng Nhập</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="sltcv.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="form-box">
+
+
+        <h3>Đăng nhập</h3>
+        <div class="nhap">
+            <label>TÊN ĐĂNG NHẬP</label>
+            <div class="inputbox">
+                <input type="text" placeholder="Tên người dùng/Email" required>
+                <i class="iconsax" icon-name="user-2-circle"></i>
+            </div>
+        </div>
+        <div class="nhap">
+            <label>MẬT KHẨU</label>
+            <div class="inputbox">
+                <!-- <input type="password" required placeholder="Mật khẩu"> 
+                    <i class="iconsax" icon-name="eye"></i> -->
+                <input id="password" type="password" required placeholder="Mật khẩu">
+                <span id="eyeicon" onclick= "Doi()">
+                    <i class="iconsax" icon-name="eye"></i>
+                </span>
+            </div>
+        </div>
+        <div class="forget">
+            <!-- <label for=""><input type="checkbox">Ghi nhớ mật khẩu</label> -->
+            <a href="#">Quên mật khẩu?</a>
+        </div>
+        <!-- <a class = "dangnhap" href = "index2.html">
+                <button type="submit" class="btn">Đăng nhập</button>
+            </a> -->
+        <a class="dangnhap" href="index2.html">
+            <button class="btn">Đăng nhập</button>
+        </a>
+        <div class="btnbox">
+            <button type="submit" class="btn2">Đăng nhập bằng</button>
+            <img src="google img.svg">
+        </div>
+        <div class="register">
+            <p> Không có tài khoản? <a href="Dangky.html">Đăng ký</a></p>
+        </div>
+
+    </div>
+    <script src="scripthome.js"></script>
+</body>

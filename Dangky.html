@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styledk.css">
+    <link href="https://iconsax.gitlab.io/i/icons.css" rel="stylesheet">
+    <title>Sắc Lục Tân Cương - Đăng Ký</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="sltcv.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- thẻ chưa có ảnh -->
+    <!-- thẻ background -->
+    <div class="form-box">
+
+        <h3>Đăng ký</h3>
+        <div class="nhap">
+            <label>NHẬP EMAIL/SỐ ĐIỆN THOẠI</label>
+            <div class="inputbox">
+                <input type="text" placeholder="Tên người dùng/Email" required>
+                <i class="iconsax" icon-name="user-2-circle"></i>
+            </div>
+        </div>
+        <div class="nhap">
+            <label>MẬT KHẨU</label>
+            <div class="inputbox">
+                <input id="password" type="password" required placeholder="Mật khẩu">
+                <span id="eyeicon" onclick = "Doi()">
+                    <i class="iconsax" icon-name="eye"></i>
+                </span>
+                <!-- <img id = "eyeicon" src = "user.png"> -->
+                <!-- <script>
+                    let eyeicon = document.getElementById("eyeicon");
+                    let password = document.getElementById("password");
+                    eyeicon.onclick = function () {
+                        if (password.type == "password") {
+                            password.type = "text";
+                        } else {
+                            password.type = "password";
+
+                        }
+                    }
+                </script> -->
+            </div>
+
+        </div>
+        <div class="forget">
+            <input type="checkbox" id="agree">
+            <label for="agree">Tôi đồng ý với</label>
+            <a href="https://www.freeprivacypolicy.com/live/687aece4-a746-49af-bc4f-6f26d7b71b9f" target="_blank">Điều
+                khoản dịch vụ</a>
+        </div>
+        <!-- <button type="submit" class="btn" onclick="D:\tài liệu môn học\Thiết kế web\TeaWebsite\index.html">Đăng ký</button> -->
+        <a class="dangky" href="index2.html">
+            <button class="btn">Đăng ký</button>
+        </a>
+
+        <div class="btnbox">
+            <button type="submit" class="btn2">Đăng ký bằng</button>
+            <img src="google img.svg">
+        </div>
+        <div class="login">
+            <p> Đã có tài khoản? <a href="Dangnhap.html">Đăng nhập</a></p>
+        </div>
+
+
+    </div>
+    <script src="scripthome.js"></script>
+</body>

@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #ECECEC;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(anhdn.png);
+    background-size: cover;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    min-height: 100vh;
+
+}
+.iconsax {
+    font-size: 24px;
+    color: #FFFFFF;
+} 
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    margin-bottom: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+.form-box{
+    width: 400px;
+    background-size: cover;
+    border-radius: 24px;
+    padding: 32px 40px;
+    align-items: center;
+    border: 2px solid #FFF;
+    backdrop-filter: blur(8px);
+}
+/* -------------------------------button phụ */
+.form-box .btn2{
+    width: 400px;
+    align-items: center;
+    height: 52px;
+    background: none;
+    margin-top: 16px;
+    border: 2px solid #ECECEC;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 4px 4px 9.6px 0px rgba(174, 174, 174, 0.15);
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btnbox img{
+    position: absolute;
+    right: 145px;
+    padding-top: 30px;
+}
+.form-box h3{
+    /* H3-48/regular */
+    font-family: Playfair Display;
+    padding-bottom: 32px;
+    font-size: 48px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    line-height: 120%; /* 57.6px */
+    letter-spacing: 0.96px;
+}
+/* ------------------------------ bộ nhập ngoài */
+.nhap{
+    padding-bottom: 16px;
+    width: 100px;
+    margin: 8px;
+}
+.nhap label{
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 2.1px;
+}
+.Ten-dn{
+    margin-bottom: 8px;
+}
+/*------------------------------- bộ nhập */
+.form-box .inputbox{
+    position: relative;
+    width: 100%;
+    margin-right: 0px;
+    margin-top: 8px;
+    width: 100%;
+    border: 2px solid #ECECEC;
+    border-radius: 40px;
+    padding: 16px 32px;
+}
+.inputbox input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+.inputbox input::placeholder{
+    color: #ECECEC;
+}
+.inputbox i{
+    position: absolute;
+    right: 32px;
+}
+
+.inputbox span i.hide-btn::before{
+    content: "\f070";
+}
+
+/* duoi */
+.form-box .forget{
+    position: relative;
+    margin: px;
+    width: 310px;
+    padding-bottom: 16px;
+}
+.forget a{
+    text-decoration: none;
+    
+}
+.form-box .nhap{
+    width: 332px;
+    margin: 0px;
+}
+.forget a{
+    text-decoration: none;
+    
+}
+.forget a:hover{
+    text-decoration: underline;
+}
+/* ------------------------------------Button */
+.form-box .btn{
+    width: 400px ;
+    height: 52px;
+    align-items: center;
+    background: #004800;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 4px 4px 9.6px 0px rgba(174, 174, 174, 0.15);
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.form-box .login{
+    text-align: center;
+    margin-top: 32px;
+}
+.form-box .login a{
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.form-box .login a:hover{
+    font-size: 16px;
+    text-decoration: underline;
+}
+.forget {
+    display: flex;
+    align-items: center;
+}
+
+.forget input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px; /* Tăng khoảng cách giữa checkbox và label */
+}
+.forget label, .forget a {
+    margin-right: 8px; /* Tăng khoảng cách giữa label và link */
+    align-items: center;
+}
+/* ----------------------------tooltip  */
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    z-index: 1;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+
+.dangky button:hover{
+    background-color: #067506;
+}
+
